@@ -1,0 +1,480 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-BlackItalic.woff2") format("woff2"), url("../fonts/WorkSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-BoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.woff2") format("woff2"), url("../fonts/WorkSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Black.woff2") format("woff2"), url("../fonts/WorkSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraBold.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraLight.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Medium.woff2") format("woff2"), url("../fonts/WorkSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraLightItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Thin.woff2") format("woff2"), url("../fonts/WorkSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ThinItalic.woff2") format("woff2"), url("../fonts/WorkSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-MediumItalic.woff2") format("woff2"), url("../fonts/WorkSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBold.woff2") format("woff2"), url("../fonts/WorkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-LightItalic.woff2") format("woff2"), url("../fonts/WorkSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Light.woff2") format("woff2"), url("../fonts/WorkSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn__primary {
+  display: inline-block;
+  padding: 8px 16px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 130%;
+  border-radius: 32px;
+  background: #ff753a;
+  border: 1px solid #ff753a;
+  transition: all 0.3s ease;
+}
+.btn__primary:hover {
+  background-color: transparent;
+}
+
+.line {
+  width: 100px;
+  margin: 0 auto;
+  height: 3px;
+  border: none;
+  background-color: #ab0433;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 65px;
+}
+
+.nav__content,
+.nav__list,
+.nav__buttons {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+#menuOpener,
+.menuOpener {
+  display: none;
+}
+
+.nav__list-item a {
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+@media screen and (min-width: 0) and (max-width: 1024px) {
+  .navbar {
+    display: block;
+  }
+  .logo {
+    z-index: 9999;
+  }
+  .nav__content {
+    justify-content: space-between;
+  }
+  .nav__list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20vh;
+    background-color: #352727;
+    transition: all 0.7s ease;
+    transform: translateX(-100%);
+  }
+  .nav__list-item a {
+    font-weight: 300;
+    font-size: 25px;
+  }
+  .nav__buttons {
+    display: none;
+  }
+  #menuOpener,
+  .menuOpener {
+    display: block;
+  }
+  #menuOpener {
+    visibility: hidden;
+  }
+  #menuOpener:checked + .nav__list {
+    transform: translateX(0);
+  }
+}
+.hero {
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__wrapper {
+  position: relative;
+}
+
+.hero__title {
+  padding: 178px 0 320px;
+  max-width: 580px;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 1.12px;
+}
+@media screen and (max-width: 767px) {
+  .hero__title {
+    max-width: 280px;
+    margin: 0 auto;
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+}
+
+.hero__content {
+  position: absolute;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 32px 0;
+  border-radius: 10px;
+  background: url(../images/bg.png), #ab0433;
+  background-position: center;
+  background-blend-mode: color-dodge, normal;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05), 0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+}
+@media screen and (min-width: 0) and (max-width: 1400px) {
+  .hero__content {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__content {
+    width: 90%;
+  }
+}
+.hero__content h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 120%;
+}
+@media screen and (max-width: 767px) {
+  .hero__content h2 {
+    max-width: 200px;
+    margin: 0 auto;
+    font-size: 21px;
+  }
+}
+.hero__content p {
+  margin: 0 auto;
+  padding: 8px 0 16px;
+  text-align: center;
+  max-width: 615px;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 149%;
+}
+@media screen and (max-width: 767px) {
+  .hero__content p {
+    max-width: 230px;
+    margin: 0 auto;
+    font-size: 10px;
+  }
+}
+
+.product {
+  padding-top: 200px;
+  background: #fff;
+  padding-bottom: 100px;
+}
+
+.product__wrapper {
+  padding-bottom: 88px;
+}
+
+.product__title {
+  padding: 10px 0 40px;
+  color: #505050;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.product__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.media__card {
+  display: none;
+}
+
+.card {
+  position: relative;
+  padding-top: 300px;
+  width: 400px;
+  background: radial-gradient(138.81% 138.29% at 1.22% 1.08%, #fbfbfb 0%, #d3d3d3 100%);
+  border-radius: 10px;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05), 0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+}
+.card img {
+  position: absolute;
+  top: -30px;
+  left: 50px;
+}
+
+.card-body {
+  padding: 24px 24px 16px 24px;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-text {
+  padding: 6px 0 15px;
+}
+
+.product__color {
+  color: #505050;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+  padding: 3px 8px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .media__card {
+    display: block;
+  }
+  .product__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .media__card {
+    display: block;
+  }
+  .card {
+    max-width: 350px;
+  }
+  .product__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.popular {
+  background: #ECECEC;
+}
+
+.popular__products {
+  padding-block: 88px;
+}
+
+.popular-card {
+  background: #fff;
+}
+
+.popular-card {
+  padding-top: 0;
+}
+.popular-card img {
+  position: static;
+}
+
+footer {
+  padding-block: 88px;
+  background: #505050;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.line_white {
+  background-color: #fff;
+}
+
+.footer-content h3 {
+  padding: 8px 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.footer__list-item a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+}

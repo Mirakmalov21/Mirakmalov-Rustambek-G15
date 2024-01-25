@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn__primary {
+  display: inline-block;
+  padding: 8px 16px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 130%;
+  border-radius: 32px;
+  background: #ff753a;
+  border: 1px solid #ff753a;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.line {
+  width: 100px;
+  margin: 0 auto;
+  height: 3px;
+  border: none;
+  background-color: #ab0433;
+}

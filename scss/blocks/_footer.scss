@@ -1,0 +1,31 @@
+footer {
+  padding-block: 88px;
+  background: #505050;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.line_white {
+  background-color: #fff;
+}
+
+.footer-content {
+  h3 {
+    padding: 8px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+}
+
+.footer__list-item a {
+  color:  #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%; 
+}
