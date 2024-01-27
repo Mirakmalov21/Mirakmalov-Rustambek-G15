@@ -258,6 +258,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .hero__wrapper {
